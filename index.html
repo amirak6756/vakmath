@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width;, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="componenet/font-awesome/css/font-awesome.min.css">
+        </style>
+    </head>
+    <body>
+            <div class="container-fluid">
+                <div class="row" style="min-height: 700px;">
+                    <!-- sidebar -->
+                    <div class="col-4 col-md-2 closed night_sidebar_color" id="sidebar" style="min-height: inherit;">
+                        <div class="row position-fixed mr-2 mt-2">
+                            <div class="container">
+                                <div class="row justify-content-around">
+                                    <div class="col-6 bg-blueLite rounded50"></div>
+                                    <div class="col-6 text-left mt-2 text-white">logo img</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 text-white mt-2">sevices</div>
+                                    <div class="col-6 mt-2 text-bold"><hr class="bg-white text-white"></div>
+                                </div>
+                                <!-- sidebar  mian menu -->
+                                <div class="row justify-content-start">
+                                    <ul class="list-group w-100 pr-0">
+                                        <li class="list-group-item list-style-item"><i class="fa fa-home"></i>text1 <div class="badge badge-pill bg-violet text-white pb-1 float-left mt-1">new</div></li> 
+                                        <li class="list-group-item list-style-item"><i class="fa fa-suitcase"></i>text1</li>
+
+                                        <div class="dropdown">
+                                                <li class="list-group-item list-style-item dropdown-toggle " data-toggle="dropdown"><i class="fa fa-envelope-open"></i>text1</li>
+                                            <div class="dropdown-menu mr-3 bg-dark rounded  text-right dropdown-menu-right">
+                                                <a href="#" class="dropdown-item text-white">text2</a>
+                                                <a href="#" class="dropdown-item text-white">text2</a>
+                                                <a href="#" class="dropdown-item text-white">text2</a>
+                                            </div>
+                                        </div>
+
+                                        <li class="list-group-item list-style-item "><i class="fa fa-list"></i>text1</li>
+                                        <li class="list-group-item list-style-item"><i class="fa fa-credit-card"></i>text1</li>
+                                    </ul>
+                                </div>
+                                <!-- end sidebar mian menu -->
+                                <div class="row">
+                                    <div class="col-6 text-white mt-2">other sevices</div>
+                                    <div class="col-6 mt-2 text-bold"><hr class="bg-white text-white w-100"></div>
+                                </div>
+                                <!-- sidebar  setting menu -->
+                                <div class="row justify-content-start">
+                                    <ul class="list-group w-100 pr-0">
+                                        <li class="list-group-item list-style-item"><i class="fa fa-wrench"></i>text1</li> 
+                                        <li class="list-group-item list-style-item"><i class="fa fa-cog"></i>text1</li>
+                                    </ul>
+                                </div>
+                                <!-- end sidebar setting menu -->
+                            </div>    
+                        </div>
+                    </div>
+                    <!-- end sidebar -->
+                    <!-- mobile sidebar -->
+                    <div class="col-2 col-md-1 opened night_sidebar_color" id="mobile_sidebar" style="min-height: inherit;">
+                        <div class="container mt-2 pr-0 mr-0">
+                            <div class="row  position-fixed pr-2">
+                                <div class="container-fluid ">
+                                    <div class="row  bg-blueLite rounded50"></div>
+                                </div>
+                                 <!-- sidebar  mian menu -->
+                                <ul class="list-group w-100 pr-0 pl-0">
+                                    <li class="list-group-item list-style-item"><i class="fa fa-home"></i></li> 
+                                    <li class="list-group-item list-style-item"><i class="fa fa-suitcase"></i></li>
+
+                                    <div class="dropdown">
+                                        <li class="list-group-item list-style-item dropdown-toggle " data-toggle="dropdown"><i class="fa fa-envelope-open"></i></li>
+                                        <div class="dropdown-menu mr-3 bg-dark rounded  text-right">
+                                            <a href="#" class="dropdown-item text-white">text2</a>
+                                            <a href="#" class="dropdown-item text-white">text2</a>
+                                            <a href="#" class="dropdown-item text-white">text2</a>
+                                        </div>
+                                    </div>
+
+                                    <li class="list-group-item list-style-item "><i class="fa fa-list"></i></li>
+                                    <li class="list-group-item list-style-item"><i class="fa fa-credit-card"></i></li>
+                                    <li class="list-group-item list-style-item"><i class="fa fa-wrench"></i></li> 
+                                    <li class="list-group-item list-style-item"><i class="fa fa-cog"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end mobile sidebar -->
+                    <div class="col-10 col-md-11 text-light main_div_night_color" id="main_div">
+                        <!--header-->
+                        <div class="row pt-3 pb-3 justify-content-between mb-3 night_header_color" id="header">
+                            <div class="col-2 col-sm-1 navbar-dark mr-1">
+                                <button class="btn bg-blueLite text-white btn-circle menu_btn btn-sm">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                            <div class="d-none d-md-block col-md-6 search_div" >
+                                <div class="input-group">
+                                    <button type="submit" class="btn btn-primary  search_btn"> <i class="fa fa-search"></i></button>
+                                    <input type="search" class="form-control bg-dark text-white rounded search_input">
+                                </div>
+
+                            </div>
+                            <div class="col-3 col-md-2 mr-2 ml-3 mt-2">
+                                <div class="row">
+                                    <div class="col-3 text-lg">
+                                        <input type="checkbox" id="toggle_checkbox">
+                                            <label for="toggle_checkbox" id="toggle_checkbox_label" class="bg-primary">
+                                            <div id="star">
+                                                <div class="star text-left" id="star-1"><i class="fa fa-moon-o mt-2 mx-2" id="toggle_checkbox_font"></i></div>
+                                            </div>
+                                            </label>
+                                    </div>
+                                    <div class="col-3 header_icons text-lg"> <i class="fa fa-shopping-cart"></i></div>
+                                    <div class="col-3 header_icons d-none d-md-block"><i class="fa fa-bell"></i></div>
+                                    <div class="col-3 header_icons"><i class="fa fa-id-card"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end header-->
+                        <!-- content page -->
+                        <div class="container-fluid rounded bg-black" style="height: 350px;">
+                            <div class="row rounded-top bg-black  main-content-top pb-2 pt-2 justify-content-between">
+                                <div class="col-5">welcome User</div>
+                                <div class="col-2 col-md-1"><a><i class="fa fa-ellipsis-h mt-2"></i></a></div>
+                            </div>
+                            <div class="row rounded-bottom bg-black  justify-content-center">
+                                <div class="col-11 mt-3">
+                                    <ul class="breadcrumb bg-dark ">
+                                        <li class="breadcrumb-item ">صفحه اصلی</li>
+                                        <li class="breadcrumb-item">صفحه اصلی دوم</li>
+                                        <li class="breadcrumb-item">صفحه اصلی سوم</li>
+                                    </ul>
+                                </div>
+                                <div class="col-11 bg-blueUltra mt-2 rounded "style="height:200px;"></div>
+                            </div>
+                        </div>
+                        <!-- end content -->
+                    </div>
+
+                </div>
+            </div>
+    </body>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</html>
